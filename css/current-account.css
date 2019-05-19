@@ -1,11 +1,4 @@
-body,
-p,
-div,
-ul,
-h1,
-h2,
-h3,
-h5 {
+body, p, div, ul, h1, h2, h3, h5 {
     margin: 0;
 }
 
@@ -22,8 +15,6 @@ a {
 .top {
     width: 100%;
     height: 32px;
-
-
     background: #eeeeee;
 }
 
@@ -34,6 +25,7 @@ a {
 }
 
 /* 左面 */
+
 .top p:nth-child(1) {
     width: 200px;
     height: 32px;
@@ -53,6 +45,7 @@ a {
 }
 
 /* 右面 */
+
 .top p:nth-child(2) {
     float: right;
     font-size: 12px;
@@ -70,6 +63,7 @@ a {
 }
 
 /* header */
+
 header {
     width: 1000px;
     height: 52px;
@@ -80,6 +74,7 @@ header {
 }
 
 /* header-left  左侧 */
+
 .header-left {
     width: 300px;
     height: 50px;
@@ -87,6 +82,7 @@ header {
 }
 
 /* .header-left-1  左侧- 左 */
+
 .header-left-1 {
     width: 160px;
     border-right: 1px solid gray;
@@ -110,7 +106,6 @@ header {
 }
 
 .header-left-1>p:nth-child(3) {
-
     font-size: 18px;
     font-family: MicrosoftYaHei;
 }
@@ -118,6 +113,7 @@ header {
 /* .header-left-1  左侧-左 - 结束 */
 
 /* header-left-1  左侧-右 */
+
 .header-left-2 {
     float: left;
     font-size: 20px;
@@ -128,8 +124,8 @@ header {
 
 /* header-left  结束*/
 
-
 /* header-left 左侧-右 - 右开始*/
+
 .header-left-2 {
     text-indent: 0.5em;
     height: 20px;
@@ -138,6 +134,7 @@ header {
 }
 
 /* header-right 开始*/
+
 .header-right {
     float: right;
     margin-top: 10px;
@@ -188,13 +185,14 @@ header {
 /* nav 结束 */
 
 /* 活期财富 */
+
 .huoqi {
     width: 100%;
     background: #f0f0f0;
-
 }
 
 /* 做外边边框，用来设置宽、居中  */
+
 .huoqi-z {
     width: 1000px;
     margin: 0 auto;
@@ -202,6 +200,7 @@ header {
 }
 
 /* huoqi-left */
+
 .huoqi-left {
     width: 718px;
     float: left;
@@ -210,6 +209,7 @@ header {
 }
 
 /* h3 */
+
 .huoqi-left h3 {
     font-size: 18px;
     color: #4a4949;
@@ -269,6 +269,7 @@ header {
 }
 
 /* huoqi-left-c */
+
 .huoqi-left-c {
     height: 100%;
     margin-top: 15px;
@@ -291,7 +292,6 @@ header {
 
 .pailie div {
     overflow: hidden;
-
 }
 
 .pailie div:nth-child(1n) {
@@ -323,6 +323,7 @@ header {
 }
 
 /* 常见问题 */
+
 .changjian {
     width: 701px;
     margin-top: 18px;
@@ -353,16 +354,13 @@ header {
     color: #5a5a5a;
 }
 
-
-
-
 /* huoqi-right */
+
 .huoqi-right {
     width: 268px;
     float: left;
     margin-left: 14px;
     margin-top: 52px;
-
 }
 
 .huoqi-right div {
@@ -401,7 +399,6 @@ header {
     color: #9b9b9b;
     text-align: center;
     line-height: 50px;
-
 }
 
 .huoqi-right-a-3 {
@@ -423,7 +420,6 @@ header {
     height: 58px;
     position: absolute;
     bottom: 0;
-
 }
 
 .huoqi-right-a-4-a {
@@ -436,6 +432,7 @@ header {
 }
 
 /* huoqi-right   交易记录*/
+
 .huoqi-right-b {
     width: 258px;
     background: #fff;
@@ -459,6 +456,7 @@ header {
 }
 
 .huoqi-jy>li {
+    font-size: 12px;
     width: 240px;
     height: 40px;
     float: left;
@@ -477,12 +475,26 @@ header {
     margin-bottom: 20px;
 }
 
+.huoqi-jy>li p:nth-child(1) {
+    width: 70px;
+}
+
+.huoqi-jy>li p:nth-child(1) span {
+    display: block;
+    height: 20px;
+    overflow: hidden;
+}
+
+.huoqi-jy>li p:nth-child(2) {
+    width: 50px;
+}
+
 .huoqi-jy>li p {
     width: 60px;
     height: 30px;
     float: left;
     font-size: 10px;
-    margin-right: 23px;
+    margin-right: 15px;
     text-align: center;
 }
 
@@ -495,6 +507,7 @@ header {
 }
 
 /* 页码 */
+
 ul.pagination {
     width: 260px;
     display: inline-block;
@@ -523,15 +536,8 @@ ul.pagination li a:hover:not(.active) {
     background-color: #ddd;
 }
 
-
-
-
-
-
-
-
-
 /* footer */
+
 footer {
     width: 100%;
     background: #313131;
